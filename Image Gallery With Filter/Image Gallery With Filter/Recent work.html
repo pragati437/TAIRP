@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Image Gallery</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<section class="portfolio">
+	<header class="section-head">
+		<h1>Picture Gallery</h1>
+	</header>
+	<main class="mainContainer">
+		<div class="button-group">
+			<button class="button active" data-filter="*">All</button>
+			<button class="button" data-filter=".BA">Bollywood Actor</button>
+			<button class="button" data-filter=".BAA">Bollywood Actress</button>
+			
+			<button class="button" data-filter=".INF">Influencer</button>
+
+		</div>
+		
+		<div class="gallery">
+			<div class="item BA">
+				<img src="image/akshay1.jpeg"alt="pic1">
+				<div class="overlay">
+					
+					<h1>Akshay Kumar</h1>
+					<p>Akshay kumar is an INdia actor. Kumar has appeared in over 100 films and has won several awards, including two National Film Awards and two Filmfare Awards. </p>
+				</div>
+			</div>
+
+			<div class="item BAA">
+				<img src="image/annaya.jpeg" alt= "pic2">
+				<div class="overlay">
+					<h1>Ananya Pandey</h1>
+					<p>Ananya Panday is an Indian actress who works in Hindi films. She is the daughter of actor Chunky Pandey, She made her film debut with a leading role in the teen film Student of the Year 2, along with Tiger Shroff and Tara Sutaria.</p>
+				</div>
+			</div>
+
+			<div class="item BAA">
+				<img src="image/ash.jpeg" alt= "pic3">
+				<div class="overlay">
+					<h1>Aishwarya Rai</h1>
+					<p>Rai won the Miss World 1994 pageant and later established herself as one of the most-popular and influential celebrities in India.</p>
+				</div>
+			</div>
+
+			<div class="item INF">
+				<img src="image/influencer33.jpeg" alt= "pic4">
+				<div class="overlay">
+					<h1>Manisha Rani</h1>
+					<p>Manisha Rani is a social media personality. She participated in the reality show Bigg Boss OTT Season 2 . In 2024, she participated in the dance-reality show Jhalak Dikhhla Jaa 11 as a wild-card contestant and emerged as the winner of the season.</p>
+				</div>
+			</div>
+
+			 <div class="item INF">
+				<img src="image/influencer4.jpeg" alt="pic5">
+				<div class="overlay">
+					<h1>ashish</h1>
+					<p>Ashish Chanchalani is a YouTuber and influencer who is known for making comedy videos on his Youtube channel Ashish Chanchlani Vines. In 2018, Chanchlani was awarded the Dadasaheb Phalke International Film Festival Award for 'Best Digital Influencer'.</p>
+				</div>
+			</div> 
+		
+			<!-- <div class="item INF">
+				<img src="image/influencer1.jpeg" alt="pic6">
+				<div class="overlay">
+					<h1>ashish chanchlani</h1>
+					<p>Ashish Chanchalani is a YouTuber and influencer who is known for making comedy videos on his Youtube channel Ashish Chanchlani Vines. In 2018, Chanchlani was awarded the Dadasaheb Phalke International Film Festival Award for 'Best Digital Influencer'.</p>
+				</div>
+			</div> -->
+			 
+			<div class="item INF">
+				<img src="image/influencer22.jpeg" alt="pic7">
+				<div class="overlay">
+					<h1>Abhishek malhan</h1>
+					<p>Fukra Insaan has 1.2 million followers on Instagram whereas his YouTube channel has 5.97 million subscribers. His debut video Insaan was released on his YouTube page just after he launched his YouTube page.</p>
+				</div>
+			</div>
+
+			<div class="item BAA">
+				<img src="image/kiriti.jpeg" alt= "pic8">
+				<div class="overlay">
+					<h1>Kriti Sanon</h1>
+					<p>Kriti Sanon started as a young and a fresh face in the film industry. Her first step in this career was the print shoot for Reliance Trends. She has since then been seen in many popular ads for brands such as Closeup, Titan watches, Parachute and Himalaya Face Wash.</p>
+				</div>
+			</div>
+			
+			<div class="item BAA">
+				<img src="image/madhuri.jpeg" alt="pic9">
+				<div class="overlay">
+					<h1>Madhuri Dixit</h1>
+					<p>the most loved and admired heroines of all times in the Indian film industry. She is as well-known for the variety of movies that she's worked in practically ruled the world of Bollywood and the hearts of millions of cine-goers </p>
+				</div>
+			</div>
+			
+			<div class="item BA">
+				<img src="image/sushant1.jpeg" alt= "pic10">
+				<div class="overlay">
+					<h1>Sushant Singh Rajput </h1>
+					<p>Sushant Singh Rajput was a popular Indian actor who worked in both Hindi Films and television. He got popular with his Bollywood movie  He won several awards and was starred in many Indian Movies and two daily T.V.</p>
+				</div>
+			</div>
+
+			<div class="item BA">
+				<img src="image/salman.jpeg" alt= "pic11">
+				<div class="overlay">
+					<h1>Salman Khan</h1>
+					<p>Salman Khan  is a Bollywood actor, dancer, film producer, and television presenter. Along with actors Shah Rukh Khan and Aamir Khan, Salman Khan is one of the three most popular Khans of Bollywood.</p>
+				</div>
+			</div>
+
+			<div class="item BAA">
+				<img src="image/priyanka1.jpeg" alt= "pic11">
+				<div class="overlay">
+					<p>priyanka Chopra</p>
+					<p>Priyanka Chopra Jonas is an Indian actress, model, singer and dancer. She is the winner of the Miss World pageant of 2000. Chopra is a UNICEF goodwill ambassador. She has won many awards, and has become one of Bollywood's highest paid actresses.</p>
+				</div>
+			</div>
+			
+		</div>
+		
+
+	</main>
+
+</section>
+
+
+<!--   *****   JQuery Link   *****   -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+<!--   *****   Isotope Filter Link   *****  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+<script type="text/javascript">
+	var $galleryContainer = $('.gallery').isotope({
+		itemSelector: '.item',
+  		layoutMode: 'fitRows'
+	})
+
+	$('.button-group .button').on('click', function(){
+		$('.button-group .button').removeClass('active');
+		$(this).addClass('active');
+
+		var value = $(this).attr('data-filter');
+		$galleryContainer.isotope({
+			filter: value 
+		})
+	})
+</script>
+
+</body>
+</html>
